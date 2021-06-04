@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Performance Individu Datsi", "Performance Individu Datsi\Performance Individu Datsi.rptproj", "{01E5B825-B421-469F-9CDB-E75553F9EA59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01E5B825-B421-469F-9CDB-E75553F9EA59}.Debug|Default.ActiveCfg = Debug
+		{01E5B825-B421-469F-9CDB-E75553F9EA59}.Debug|Default.Build.0 = Debug
+		{01E5B825-B421-469F-9CDB-E75553F9EA59}.Debug|Default.Deploy.0 = Debug
+		{01E5B825-B421-469F-9CDB-E75553F9EA59}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{01E5B825-B421-469F-9CDB-E75553F9EA59}.DebugLocal|Default.Build.0 = DebugLocal
+		{01E5B825-B421-469F-9CDB-E75553F9EA59}.Release|Default.ActiveCfg = Release
+		{01E5B825-B421-469F-9CDB-E75553F9EA59}.Release|Default.Build.0 = Release
+		{01E5B825-B421-469F-9CDB-E75553F9EA59}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
