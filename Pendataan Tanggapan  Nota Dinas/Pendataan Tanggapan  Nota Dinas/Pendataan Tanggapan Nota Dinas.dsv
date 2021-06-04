@@ -1,0 +1,230 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="57888825-06c1-4510-8cf4-b2e00a32c8f4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Pendataan Tanggapan Nota Dinas</ID>
+  <Name>Pendataan Tanggapan Nota Dinas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4980" scrolltop="-6775" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="19706" y="17082" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="nota_dinas" left="161" top="3546" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3641" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000390e000072110000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_nota_dinas" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="pendataanNodin_Fact" left="661" top="179" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000034060000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_pendataanNodin_Fact" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Waktu" left="6061" top="0" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b00009b070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Waktu" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3361" top="574" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK__pendataan__id_wa__145C0A3F]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="12" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="6061" y="973" />
+                    <point x="3661" y="973" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1582" top="1467" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="879" height="2579" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK__pendataan__id_no__1367E606]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="1981" y="3546" />
+                    <point x="1981" y="2967" />
+                    <point x="2161" y="2967" />
+                    <point x="2161" y="1767" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-4980</DiagramViewPortLeft>
+            <DiagramViewPortTop>-6775</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>75</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>COBA</DataSourceID>
+  <Schema>
+    <xs:schema id="Pendataan_x0020_Tanggapan_x0020_Nota_x0020_Dinas" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Pendataan_x0020_Tanggapan_x0020_Nota_x0020_Dinas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="6f970092-ed29-4b9e-bdba-aa37e827736c">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_nota_dinas" msprop:design-time-name="d2522187-278b-42cb-a145-e5e167edbb62" msprop:FriendlyName="nota_dinas" msprop:DbSchemaName="dbo" msprop:DbTableName="nota_dinas" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msprop:design-time-name="d87d1fe8-50c9-4910-ad30-cda2d749ac02" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:int" />
+                  <xs:element name="username_internal" msprop:design-time-name="3297471a-2f77-4de9-a237-a19f6c4d45e6" msprop:DbColumnName="username_internal" msprop:FriendlyName="username_internal" type="xs:int" minOccurs="0" />
+                  <xs:element name="nama_pengirim" msprop:design-time-name="f318b908-3cec-4dcb-a23d-a9dae8731ceb" msprop:DbColumnName="nama_pengirim" msprop:FriendlyName="nama_pengirim" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="status_persetujuan" msprop:design-time-name="02b32578-a3c7-4722-aef5-d48881e0fc2c" msprop:DbColumnName="status_persetujuan" msprop:FriendlyName="status_persetujuan" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="name" msprop:design-time-name="8941bc74-8675-4359-8dda-219ca365baa4" msprop:DbColumnName="name" msprop:FriendlyName="name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="komentar" msprop:design-time-name="f3e00554-a6fd-4537-b8b6-c6084fc649d3" msprop:DbColumnName="komentar" msprop:FriendlyName="komentar" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="unit_kerja" msprop:design-time-name="4ac69a53-f0e7-4504-91ce-696302653f69" msprop:DbColumnName="unit_kerja" msprop:FriendlyName="unit_kerja" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="email" msprop:design-time-name="f374842b-6d48-4476-8f79-0c04c1079ac2" msprop:DbColumnName="email" msprop:FriendlyName="email" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="file_path" msprop:design-time-name="4cfa1416-0ea3-4041-95a0-5a5f36e0eee6" msprop:DbColumnName="file_path" msprop:FriendlyName="file_path" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="uuid" msprop:design-time-name="ae640510-4d12-4cfd-a9e5-b3102390bb0e" msprop:DbColumnName="uuid" msprop:FriendlyName="uuid" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_pendataanNodin_Fact" msprop:design-time-name="fb04076c-715d-4153-b3da-da6d405b9bbf" msprop:FriendlyName="pendataanNodin_Fact" msprop:DbSchemaName="dbo" msprop:DbTableName="pendataanNodin_Fact" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_notadinas" msprop:design-time-name="ee75c3df-aeea-406a-92f3-dd2fd9f2f9ba" msprop:DbColumnName="id_notadinas" msprop:FriendlyName="id_notadinas" type="xs:int" minOccurs="0" />
+                  <xs:element name="id_waktu" msprop:design-time-name="906551c5-afbf-4bba-b27e-f4c60b7c74c4" msprop:DbColumnName="id_waktu" msprop:FriendlyName="id_waktu" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Waktu" msprop:design-time-name="603782b8-05a3-4655-bdb7-c91d7677d3e7" msprop:FriendlyName="Waktu" msprop:DbSchemaName="dbo" msprop:DbTableName="Waktu" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_waktu" msprop:design-time-name="c3aaecf5-2000-4c3d-ae07-b0f3ac3b34be" msprop:DbColumnName="id_waktu" msprop:FriendlyName="id_waktu" type="xs:int" />
+                  <xs:element name="jam" msprop:design-time-name="2d8cd00d-aa02-4751-93cf-f3ac01ca66f6" msprop:DbColumnName="jam" msprop:FriendlyName="jam" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="tanggal" msprop:design-time-name="139dc99e-5b32-41d0-9da9-4b80a741a7be" msprop:DbColumnName="tanggal" msprop:FriendlyName="tanggal" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_nota_dinas" />
+          <xs:field xpath="id" />
+        </xs:unique>
+        <xs:unique name="dbo_Waktu_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Waktu" />
+          <xs:field xpath="id_waktu" />
+        </xs:unique>
+        <xs:keyref name="FK__pendataan__id_no__1367E606" refer="Constraint1">
+          <xs:selector xpath=".//dbo_pendataanNodin_Fact" />
+          <xs:field xpath="id_notadinas" />
+        </xs:keyref>
+        <xs:keyref name="FK__pendataan__id_wa__145C0A3F" refer="dbo_Waktu_Constraint1">
+          <xs:selector xpath=".//dbo_pendataanNodin_Fact" />
+          <xs:field xpath="id_waktu" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Pendataan_x0020_Tanggapan_x0020_Nota_x0020_Dinas xmlns="" />
+  </Schema>
+</DataSourceView>
