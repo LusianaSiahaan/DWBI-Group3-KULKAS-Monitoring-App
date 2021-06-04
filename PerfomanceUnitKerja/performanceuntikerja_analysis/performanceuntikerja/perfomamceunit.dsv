@@ -1,0 +1,209 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="56c7b27d-e062-49f7-a551-7546552d433b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>perfomamceunit</ID>
+  <Name>perfomamceunit</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>3</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7479" scrolltop="-6009" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24723" y="17463" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="PerformanceUnitFact" left="4756" top="-85" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000034060000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_PerformanceUnitFact" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="todolist" left="-890" top="254" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3281" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000d10c000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_todolist" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-7479</DiagramViewPortLeft>
+            <DiagramViewPortTop>-6009</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Kulkas 3</DataSourceID>
+  <Schema>
+    <xs:schema id="perfomamceunit" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="perfomamceunit" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="720f69a0-01ce-4975-969b-b4e88a489e12">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_PerformanceUnitFact" msprop:design-time-name="21c8e8f8-bf33-4536-89f4-76b4c62116ca" msprop:FriendlyName="PerformanceUnitFact" msprop:DbSchemaName="dbo" msprop:DbTableName="PerformanceUnitFact" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="todolistid" msprop:design-time-name="0c525bd2-d94a-43fb-a168-c0563ae51d58" msprop:DbColumnName="todolistid" msprop:FriendlyName="todolistid" type="xs:long" />
+                  <xs:element name="unit_kerja" msprop:design-time-name="4fe9aa27-a554-4966-9bd4-b4998c820a4a" msprop:DbColumnName="unit_kerja" msprop:FriendlyName="unit_kerja" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_todolist" msprop:design-time-name="a9bc23fa-7ff4-4853-a2a7-eca5fb97b5e2" msprop:FriendlyName="todolist" msprop:DbSchemaName="dbo" msprop:DbTableName="todolist" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msprop:design-time-name="8612181c-fcbb-41f5-8949-d4c928d75d72" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:long" />
+                  <xs:element name="id_category" msprop:design-time-name="9f53c453-31f3-45a4-9436-766841fbfdb6" msprop:DbColumnName="id_category" msprop:FriendlyName="id_category" type="xs:int" minOccurs="0" />
+                  <xs:element name="username" msprop:design-time-name="75afa728-2da3-4230-809d-74780238cfec" msprop:DbColumnName="username" msprop:FriendlyName="username" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="nama" msprop:design-time-name="c5b30a21-f63a-4870-8efc-349185d9713d" msprop:DbColumnName="nama" msprop:FriendlyName="nama" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="unit_kerja" msprop:design-time-name="3bea3bfa-2295-4098-bc43-498694f27593" msprop:DbColumnName="unit_kerja" msprop:FriendlyName="unit_kerja" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sub_unit" msprop:design-time-name="b8b8c59e-8bae-4868-b1fd-9acbd24dcde5" msprop:DbColumnName="sub_unit" msprop:FriendlyName="sub_unit" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="email" msprop:design-time-name="447b9a39-8262-494b-a617-5fe58c0cbe83" msprop:DbColumnName="email" msprop:FriendlyName="email" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="tanggal" msprop:design-time-name="1d94e36a-361d-48aa-af88-6a68cd942290" msprop:DbColumnName="tanggal" msprop:FriendlyName="tanggal" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="jam" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="e2bb2eed-9090-44f2-9fec-ec2aea813d1e" msprop:DbColumnName="jam" msprop:FriendlyName="jam" type="xs:anyType" minOccurs="0" />
+                  <xs:element name="lokasi" msprop:design-time-name="6575c4d4-823d-48ee-bff8-4fcafa2f2fc8" msprop:DbColumnName="lokasi" msprop:FriendlyName="lokasi" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="statusAktivitas" msprop:design-time-name="47f99713-93ae-48e8-97d8-aa30754e384a" msprop:DbColumnName="statusAktivitas" msprop:FriendlyName="statusAktivitas" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="perihal" msprop:design-time-name="68e2753c-b9be-4313-adac-9709ffca6646" msprop:DbColumnName="perihal" msprop:FriendlyName="perihal" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="keterangan" msprop:design-time-name="e65812d6-15cc-4414-91b7-5137eaa5bf9f" msprop:DbColumnName="keterangan" msprop:FriendlyName="keterangan" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2147483647" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="file_path" msprop:design-time-name="ec15f63f-3621-4679-99bd-e3dea241f8ce" msprop:DbColumnName="file_path" msprop:FriendlyName="file_path" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kategori_todolist" msprop:design-time-name="0348607b-a491-41aa-9f8a-9cc2447220e2" msprop:DbColumnName="kategori_todolist" msprop:FriendlyName="kategori_todolist" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="catatan" msprop:design-time-name="0e9c025f-1b07-4b9e-947c-df81607a847f" msprop:DbColumnName="catatan" msprop:FriendlyName="catatan" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="created_at" msprop:design-time-name="5b1c4db4-5768-42fe-acd8-12b73daccddc" msprop:DbColumnName="created_at" msprop:FriendlyName="created_at" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="deleted_at" msprop:design-time-name="50e18c5a-c966-4036-8a13-23d580e3ae66" msprop:DbColumnName="deleted_at" msprop:FriendlyName="deleted_at" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="taken_at" msprop:design-time-name="8249f271-0603-4501-8587-c334b6343bfd" msprop:DbColumnName="taken_at" msprop:FriendlyName="taken_at" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="closed_on" msprop:design-time-name="1f32825d-8171-42d0-b761-27161eeecdcd" msprop:DbColumnName="closed_on" msprop:FriendlyName="closed_on" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="todolistid" msprop:DbColumnName="todolistid" msprop:design-time-name="4244f066-9f03-426e-a9c5-10b78ce32ab9" type="xs:long" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_PerformanceUnitFact" />
+          <xs:field xpath="todolistid" />
+        </xs:unique>
+        <xs:unique name="dbo_todolist_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_todolist" />
+          <xs:field xpath="id" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <perfomamceunit xmlns="" />
+  </Schema>
+</DataSourceView>

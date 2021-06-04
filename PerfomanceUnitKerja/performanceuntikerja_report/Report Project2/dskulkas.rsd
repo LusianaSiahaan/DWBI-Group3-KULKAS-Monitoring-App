@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>kulkas</DataSourceReference>
+      <CommandText>select unit_kerja as Unitkerja ,
+		MONTH(tanggal) AS bulan, 
+		YEAR(tanggal) AS tahun
+        FROM todolist
+		GROUP BY todolist.unit_kerja, month (todolist.tanggal), year (todolist.tanggal) 
+        ORDER BY todolist.unit_kerja asc</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="Unitkerja">
+        <DataField>Unitkerja</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="bulan">
+        <DataField>bulan</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="tahun">
+        <DataField>tahun</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
