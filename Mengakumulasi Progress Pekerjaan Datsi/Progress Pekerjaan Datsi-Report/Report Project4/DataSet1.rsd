@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>SELECT kategoritugas.id AS id_kategori, kategoritugas.alternate_name AS inisialkategori, kategoritugas.kategori, kategoritugas.sub_kategori, COUNT(todolist.id_kategori) AS jlhtugas, 
+                  COUNT(CASE WHEN todolist.statusAktivitas = 2 THEN 1 ELSE NULL END) AS sdhselesai, COUNT(CASE WHEN todolist.statusAktivitas = 1 OR
+                  todolist.statusAktivitas = 0 THEN 1 ELSE NULL END) AS blmselesai, ROUND(100.0 * ((CASE WHEN todolist.statusAktivitas = 2 THEN 1 ELSE NULL END) / COUNT(todolist.id_kategori)), 1) AS persenselesai, 
+                  ROUND(100.0 * ((CASE WHEN todolist.statusAktivitas = 1 OR
+                  todolist.statusAktivitas = 0 THEN 1 ELSE NULL END) / COUNT(todolist.id_kategori)), 2) AS persenbelum, MONTH(todolist.tanggal) AS bulan, YEAR(todolist.tanggal) AS tahun
+FROM     todolist INNER JOIN
+                  kategoritugas ON kategoritugas.id = todolist.id_kategori
+GROUP BY kategoritugas.alternate_name, kategoritugas.id, kategoritugas.kategori, kategoritugas.sub_kategori, MONTH(todolist.tanggal), YEAR(todolist.tanggal), todolist.statusAktivitas
+ORDER BY id_kategori</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="id_kategori">
+        <DataField>id_kategori</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="inisialkategori">
+        <DataField>inisialkategori</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="kategori">
+        <DataField>kategori</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="sub_kategori">
+        <DataField>sub_kategori</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="jlhtugas">
+        <DataField>jlhtugas</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="sdhselesai">
+        <DataField>sdhselesai</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="blmselesai">
+        <DataField>blmselesai</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="persenselesai">
+        <DataField>persenselesai</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="persenbelum">
+        <DataField>persenbelum</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="bulan">
+        <DataField>bulan</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="tahun">
+        <DataField>tahun</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+    <Filters>
+      <Filter>
+        <FilterExpression>=Fields!tahun.Value</FilterExpression>
+        <Operator>Equal</Operator>
+        <FilterValues>
+          <FilterValue DataType="Integer">2021</FilterValue>
+        </FilterValues>
+      </Filter>
+    </Filters>
+  </DataSet>
+</SharedDataSet>

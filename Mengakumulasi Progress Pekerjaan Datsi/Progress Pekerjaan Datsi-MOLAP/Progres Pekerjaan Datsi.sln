@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Progres Pekerjaan Datsi", "MultidimensionalProject2\Progres Pekerjaan Datsi.dwproj", "{27A53943-6888-4EA1-8243-C05DC36639EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27A53943-6888-4EA1-8243-C05DC36639EE}.Development|Default.ActiveCfg = Development
+		{27A53943-6888-4EA1-8243-C05DC36639EE}.Development|Default.Build.0 = Development
+		{27A53943-6888-4EA1-8243-C05DC36639EE}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

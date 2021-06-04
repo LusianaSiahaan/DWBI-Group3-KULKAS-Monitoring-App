@@ -1,0 +1,255 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8edcf84c-b64e-41f9-a903-a924bdf86463" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Kulkas</ID>
+  <Name>Kulkas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Kulkas</DataSourceID>
+  <Schema>
+    <xs:schema id="Kulkas" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Kulkas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="cb6c5233-2612-4c9a-9e9c-f9e786ec76da">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_todolist" msprop:design-time-name="d170e0b3-cf69-49ec-9d58-8bd626208125" msprop:DbTableName="todolist" msprop:FriendlyName="todolist" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msprop:design-time-name="71e867c7-6e3d-41cf-96bd-556e58942d56" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:long" />
+                  <xs:element name="id_kategori" msprop:design-time-name="e9d4a71c-ee9c-4eeb-a11c-3928d9d30d31" msprop:DbColumnName="id_kategori" msprop:FriendlyName="id_kategori" type="xs:int" minOccurs="0" />
+                  <xs:element name="usersid" msprop:design-time-name="2ef3006f-0860-40e9-9456-e012f91334dc" msprop:DbColumnName="usersid" msprop:FriendlyName="usersid" type="xs:int" />
+                  <xs:element name="username" msprop:design-time-name="c481d1ae-c722-4f98-99ee-8522c3b31405" msprop:DbColumnName="username" msprop:FriendlyName="username" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="nama" msprop:design-time-name="6bd65c43-7eeb-40d8-ade4-7bd892228398" msprop:DbColumnName="nama" msprop:FriendlyName="nama" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="unit_kerja" msprop:design-time-name="4ee805d9-d619-4142-84c4-ea58643409c9" msprop:DbColumnName="unit_kerja" msprop:FriendlyName="unit_kerja" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sub_unit" msprop:design-time-name="873515f8-a9fe-4f91-8c8b-199cb4a8d6d2" msprop:DbColumnName="sub_unit" msprop:FriendlyName="sub_unit" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="email" msprop:design-time-name="f5eced53-3f4a-492e-8a68-e9413e04af74" msprop:DbColumnName="email" msprop:FriendlyName="email" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="tanggal" msprop:design-time-name="01e8b7d1-a2fe-46b7-a32e-e13e5770717b" msprop:DbColumnName="tanggal" msprop:FriendlyName="tanggal" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="jam" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="9e953c76-dcdf-4131-a9c1-41ef6a718fa9" msprop:DbColumnName="jam" msprop:FriendlyName="jam" type="xs:anyType" minOccurs="0" />
+                  <xs:element name="lokasi" msprop:design-time-name="56cfe49f-ccd6-4ff2-b745-6421f3beba2e" msprop:DbColumnName="lokasi" msprop:FriendlyName="lokasi" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="statusAktivitas" msprop:design-time-name="cf8ca17b-7d0c-409c-8dbb-8fc471be121b" msprop:DbColumnName="statusAktivitas" msprop:FriendlyName="statusAktivitas" type="xs:unsignedByte" minOccurs="0" />
+                  <xs:element name="perihal" msprop:design-time-name="a35bc848-4cfc-421a-b6d7-895f1f3d96d5" msprop:DbColumnName="perihal" msprop:FriendlyName="perihal" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="keterangan" msprop:design-time-name="c475b0a6-e03b-4929-a949-8c4916725a21" msprop:DbColumnName="keterangan" msprop:FriendlyName="keterangan" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="2147483647" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="file_path" msprop:design-time-name="90aaf03d-096c-4629-b94c-dfe1a84d5401" msprop:DbColumnName="file_path" msprop:FriendlyName="file_path" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="kategori_todolist" msprop:design-time-name="4cffd813-d9cf-407a-9c8b-0be67fe8b71d" msprop:DbColumnName="kategori_todolist" msprop:FriendlyName="kategori_todolist" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="catatan" msprop:design-time-name="62b9a48c-caf2-4ef6-84dd-6d1fda62eddd" msprop:DbColumnName="catatan" msprop:FriendlyName="catatan" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="created_at" msprop:design-time-name="2c810966-7efc-4e28-80d7-c569add5ebb6" msprop:DbColumnName="created_at" msprop:FriendlyName="created_at" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="taken_at" msprop:design-time-name="9843c622-edd4-471d-9d05-d330fcfb4562" msprop:DbColumnName="taken_at" msprop:FriendlyName="taken_at" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="closed_on" msprop:design-time-name="7cf072e2-ff45-4d5b-8766-67c9689ba9af" msprop:DbColumnName="closed_on" msprop:FriendlyName="closed_on" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="deleted_at" msprop:design-time-name="a7e6e2eb-a337-4c95-b1f1-d5504aa71436" msprop:DbColumnName="deleted_at" msprop:FriendlyName="deleted_at" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_ProgressFact" msprop:design-time-name="b42561f3-d454-49b4-b380-977b1f786362" msprop:DbTableName="ProgressFact" msprop:FriendlyName="ProgressFact" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="todolistid" msprop:design-time-name="87eb3981-adec-4670-a96c-0c39c13544e2" msprop:DbColumnName="todolistid" msprop:FriendlyName="todolistid" type="xs:long" minOccurs="0" />
+                  <xs:element name="id_kategori" msprop:design-time-name="7b25c441-2ec4-4a1f-9819-34c288da1e3c" msprop:DbColumnName="id_kategori" msprop:FriendlyName="id_kategori" type="xs:int" minOccurs="0" />
+                  <xs:element name="usersid" msprop:design-time-name="eeaaf73e-e1c7-4a90-b0bd-0b203abe143e" msprop:DbColumnName="usersid" msprop:FriendlyName="usersid" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_kategoritugas" msprop:design-time-name="a890852d-dee5-410e-bebc-68e4334f114d" msprop:DbTableName="kategoritugas" msprop:FriendlyName="kategoritugas" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msprop:design-time-name="0084ce38-48d2-447b-ab01-cb1fdcab27fe" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:int" />
+                  <xs:element name="kategori" msprop:design-time-name="fc3c0114-091f-42f5-9e32-e8aef2307f9d" msprop:DbColumnName="kategori" msprop:FriendlyName="kategori" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sub_kategori" msprop:design-time-name="54545f2d-9c07-4d04-a9e7-8ca2cc3fa8b4" msprop:DbColumnName="sub_kategori" msprop:FriendlyName="sub_kategori" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="alternate_name" msprop:design-time-name="18813884-9fa4-4792-a7af-cde241d857b7" msprop:DbColumnName="alternate_name" msprop:FriendlyName="alternate_name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_users" msprop:design-time-name="740345bc-bbc8-4e83-824c-ad38b02f74ea" msprop:DbTableName="users" msprop:FriendlyName="users" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msprop:design-time-name="09b554ef-7025-44c9-a227-f84e2710ffb8" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:int" />
+                  <xs:element name="name" msprop:design-time-name="f31ab55d-c317-43e9-91b2-ef4382a282e8" msprop:DbColumnName="name" msprop:FriendlyName="name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="email" msprop:design-time-name="3e628660-d418-44dd-b646-59029f80d645" msprop:DbColumnName="email" msprop:FriendlyName="email" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="email_verified_at" msprop:design-time-name="9f03cb49-91e8-4390-be1d-2cc1054799c1" msprop:DbColumnName="email_verified_at" msprop:FriendlyName="email_verified_at" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="password" msprop:design-time-name="dd352f6b-09b5-4d6f-a7a0-89b01ccc24ad" msprop:DbColumnName="password" msprop:FriendlyName="password" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="remember_token" msprop:design-time-name="cfd82b25-6f7b-4054-8793-afaa22c8e2b9" msprop:DbColumnName="remember_token" msprop:FriendlyName="remember_token" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="created_at" msprop:design-time-name="bd265038-31e0-4d48-937c-f84d347f82ee" msprop:DbColumnName="created_at" msprop:FriendlyName="created_at" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="updated_at" msprop:design-time-name="fa1d7d05-f1df-449b-aa9c-aa606acbb8d7" msprop:DbColumnName="updated_at" msprop:FriendlyName="updated_at" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="deleted_at" msprop:design-time-name="3f91c488-74df-43d2-baa7-09169e823f90" msprop:DbColumnName="deleted_at" msprop:FriendlyName="deleted_at" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_todolist" />
+          <xs:field xpath="id" />
+        </xs:unique>
+        <xs:unique name="dbo_kategoritugas_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_kategoritugas" />
+          <xs:field xpath="id" />
+        </xs:unique>
+        <xs:unique name="dbo_users_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_users" />
+          <xs:field xpath="id" />
+        </xs:unique>
+        <xs:keyref name="FK__ProgressF__id_ka__70DDC3D8" refer="dbo_kategoritugas_Constraint1">
+          <xs:selector xpath=".//dbo_ProgressFact" />
+          <xs:field xpath="id_kategori" />
+        </xs:keyref>
+        <xs:keyref name="FK__ProgressF__todol__6FE99F9F" refer="Constraint1">
+          <xs:selector xpath=".//dbo_ProgressFact" />
+          <xs:field xpath="todolistid" />
+        </xs:keyref>
+        <xs:keyref name="FK__ProgressF__users__71D1E811" refer="dbo_users_Constraint1">
+          <xs:selector xpath=".//dbo_ProgressFact" />
+          <xs:field xpath="usersid" />
+        </xs:keyref>
+        <xs:keyref name="FK__todolist__id_kat__6477ECF3" refer="dbo_kategoritugas_Constraint1">
+          <xs:selector xpath=".//dbo_todolist" />
+          <xs:field xpath="id_kategori" />
+        </xs:keyref>
+        <xs:keyref name="FK__todolist__usersi__6383C8BA" refer="dbo_users_Constraint1">
+          <xs:selector xpath=".//dbo_todolist" />
+          <xs:field xpath="usersid" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Kulkas xmlns="" />
+  </Schema>
+</DataSourceView>
